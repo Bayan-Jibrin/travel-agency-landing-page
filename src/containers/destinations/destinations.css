@@ -1,0 +1,78 @@
+.travel__distinations {
+    margin: 0 11.4583vw 12.9166vw 12.0138vw;
+}
+
+.travel__distinations-heading {
+    text-align: center;
+    width: 100%;
+}
+
+.travel__distinations h6 {
+    font-family: var(--font-popp);
+    font-weight: 600;
+    font-size: max(12px,1.25vw);
+    color: #5E6282;
+    margin-bottom: 0.4444em;
+}
+
+.travel__distinations h1 {
+    font-family: var(--font-vol);
+    font-weight: 700;
+    font-size: max(26px,3.4722vw);
+    color: #14183E;
+}
+
+.travel__distinations-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.travel__distinations-container_distination {
+    background-repeat: no-repeat;
+    background-size: contain;
+    filter: drop-shadow(0px 100px 80px rgba(0, 0, 0, 0.02)) drop-shadow(0px 64.8148px 46.8519px rgba(0, 0, 0, 0.0151852)) drop-shadow(0px 38.5185px 25.4815px rgba(0, 0, 0, 0.0121481)) drop-shadow(0px 20px 13px rgba(0, 0, 0, 0.01)) drop-shadow(0px 8.14815px 6.51852px rgba(0, 0, 0, 0.00785185)) drop-shadow(0px 1.85185px 3.14815px rgba(0, 0, 0, 0.00481481));
+}
+
+.travel__distinations-container>.travel__distinations-container_distination:nth-child(1) {
+    background-image: url(../../assets/Rectangle1.png);
+    margin-top: 4.16667vw ;
+}
+
+.travel__distinations-container_distination:nth-child(2) {
+    background-image: url(../../assets/Rectangle2.jpg);
+    margin: 4.16667vw 4.16667vw 0 2.4305vw;
+}
+
+.travel__distinations-container-decore {
+    position: relative;
+    width: max(164px,21.875vw);
+    height:max(237.9px,31.7361vw) ;
+    margin-top: 4.16667vw ;
+}
+
+.travel__distinations-container-decore>.travel__distinations-container_distination {
+    background-image: url(../../assets/Rectangle3.png); 
+}
+
+.travel__distinations-container-decore>img {
+    position: absolute;
+    z-index: -1;
+    width: max(6.66667vw,49.9px);
+    height: max(17.5vw,131.19px);
+    left: max(19.5139vw,146.3px);
+    bottom: max(3.2639vw,24.46px);
+}
+
+@media screen and (max-width: 494px) {
+    .travel__distinations-container_distination:nth-child(2) {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .travel__distinations-container {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+

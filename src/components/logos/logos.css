@@ -1,0 +1,38 @@
+.travel__logos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 8vw 7.708vw ;
+}
+
+.travel__logos .travel__logos-div:nth-child(1) img {
+    width:72.22%;
+}
+
+.travel__logos .travel__logos-div:nth-child(2) img {
+    width: 96.033%;
+}
+
+.travel__logos .travel__logos-div:nth-child(3) img {
+    width: 90%;
+}
+
+.travel__logos .travel__logos-div:nth-child(4) img {
+    width: 90%;
+}
+
+.travel__logos .travel__logos-div:nth-child(5) img {
+    width: 52.22%;
+}
+
+@media screen and (max-width: 873.6px) {
+    .travel__logos {
+        flex-wrap: wrap;
+    }
+}
+
+
+
+
+
+

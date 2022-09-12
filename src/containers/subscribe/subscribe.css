@@ -1,0 +1,114 @@
+.travel__subscribe {
+    margin:0 2.5vw 6.667vw 3.333vw;
+    padding: 0.903vw 6.875vw 4.86vw 6.042vw;
+    background-image:url(../../assets/Group5.png) ;
+    background-size:10.63vw ;
+    background-position: right bottom;
+    background-repeat: no-repeat;
+} 
+
+.travel__subscribe-container  {
+    background: #DFD7F9;
+    border-radius: 8.958vw 1.389vw 1.389vw;
+    
+    background-image: 
+    url(../../assets/MaskGroup2.png),
+    url(../../assets/MaskGroup1.png);
+    
+    background-repeat: no-repeat,no-repeat;
+    background-size: max(22.56%,110px) , max(41.03% , 160px)  ; 
+    background-position:right  top, left min(-7.4%,-23px)  bottom ;
+
+    position: relative;
+    font-size: max(2.291vw,12px);
+    padding: 2.3939em 0 2.3636em ;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+}
+
+.travel__subscribe-container img {
+    width: max(35.075px,4.861vw);
+    height: max(35.075px,4.861vw);
+    position: absolute;
+    top:min(-6.514px,-0.9027vw);
+    right:min(-10.022px,-1.3889vw) ;
+}
+
+.travel__subscribe-container p {
+    font-family: var(--font-popp);
+    font-weight: 600;
+    line-height: max(20px,3.75vw);
+    text-align: center;
+    color: #5E6282;
+    margin:0 4.6969em 2.2424em 4.7272em;
+}
+
+.travel__subscribe-container_input  {
+    display: flex;
+    width: max(49.15%,250px);
+    justify-content: space-between;
+}
+
+.travel__subscribe-container_input input {
+    width: 67.36%;
+    background: #FFFFFF;
+    border-radius: 0.5em;
+    border: none;
+
+    font-family: var(--font-mon);
+    font-weight: 400;
+    font-size: max(11px,1.3889vw);
+    color: #000;
+    outline: none;
+    padding: 0 0.8em;
+}
+
+.travel__subscribe-container_input input::placeholder {
+    font-family: var(--font-mon);
+    font-weight: 400;
+    font-size: max(9px,0.972vw);
+    color: #39425D;
+}
+
+.travel__subscribe-container_input button {
+    width: 28.8%;
+    background: linear-gradient(180deg, #FF946D 0%, #FF7D68 100%);
+    border-radius: max(6px,0.588em);
+    border: none;
+
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: max(9px,1.18vw);
+    text-align: center;
+    color: #FFFFFF;
+
+    padding-top: 1.294em ;
+    padding-bottom: 1.294em ;
+}
+
+@media screen and (max-width: 700px) {
+    .travel__subscribe-container p {
+        margin:0 2.6969em 1.7em 2.7272em;
+    }
+
+}
+
+@media screen and (max-width: 350px) {
+    .travel__subscribe-container_input  {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .travel__subscribe-container_input input {
+        height: 35.275px;
+        margin-bottom: 1em;
+    }
+
+}
+
+
+
+
+

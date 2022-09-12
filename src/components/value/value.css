@@ -1,0 +1,53 @@
+.travel__booktrip-steps_Values-container {
+    display: flex;
+    font-size: max(12px,1.1111vw);
+}
+
+.travel__booktrip-steps_Values-container_image {
+    width:max(36.813px,3.264vw) ;
+    height:max(37.587px,3.333vw); 
+    border-radius: 0.8125em;
+    margin:0.25em 1.3em 0 0 ;
+    position: relative;
+}
+
+.travel__booktrip-steps_Values-container_image img {
+    position: absolute;
+}
+
+.travel__booktrip-steps_Values-container_text {
+    max-width: 82.78%;
+}
+
+.travel__booktrip-steps_Values-container_text p:nth-child(1) {
+    font-family: var(--font-popp);
+    font-weight: 700;
+    color: #5E6282;
+    text-align: left;
+    margin-bottom: 0.25em;
+}
+
+.travel__booktrip-steps_Values-container_text p:nth-child(2) {
+    font-family: var(--font-popp);
+    font-weight: 400;
+    color: #5E6282;
+    text-align: left;
+}
+
+
+@media screen and (max-width: 340px) {
+    .travel__booktrip-steps_Values-container {
+        flex-direction: column;
+    }
+
+    .travel__booktrip-steps_Values-container_image {
+        margin-bottom: 0.5em;
+    }
+
+   
+}
+
+
+
+
+

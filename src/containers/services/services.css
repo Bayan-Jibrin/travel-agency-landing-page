@@ -1,0 +1,57 @@
+.travel__services {
+    background-image: url(../../assets/servicedecore.png);
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-size: max(80px,12.459%);
+    margin: 0  4.0277vw 8.54vw 10.694vw;
+}
+
+.travel__services-heading { 
+    width: 87.541%;
+    text-align: center;
+}
+
+.travel__services-heading h6 {
+    font-family: var(--font-popp);
+    font-weight: 600;
+    font-size: max(10px,1.25vw);
+    color: #5E6282;
+    margin: 0.444em 0 0.5555em; 
+}
+
+.travel__services-heading h1 {
+    font-family: var(--font-vol);
+    font-weight: 700;
+    font-size: max(3.472vw,24px); 
+    color: #14183E;
+}
+
+.travel__services-container {
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+@media screen and (max-width: 765.6px) {
+    .travel__services-container {
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 318px)  {
+    .travel__services-heading { 
+        width: 100%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+

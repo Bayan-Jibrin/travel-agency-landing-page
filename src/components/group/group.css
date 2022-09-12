@@ -1,0 +1,53 @@
+.travel__Testimonials-content_group {
+    width: 75.34%;
+    height: 68.82%;
+    position: absolute;
+    background-color: #fff;
+    font-size: max(11.68px,1.1111vw);
+    padding: 1.75em 2.125em 2.125em;
+    box-shadow: 0px 100px 80px rgba(0, 0, 0, 0.02), 0px 64.8148px 46.8519px rgba(0, 0, 0, 0.0151852), 0px 38.5185px 25.4815px rgba(0, 0, 0, 0.0121481), 0px 20px 13px rgba(0, 0, 0, 0.01), 0px 8.14815px 6.51852px rgba(0, 0, 0, 0.00785185), 0px 1.85185px 3.14815px rgba(0, 0, 0, 0.00481481);
+    border-radius: 0.625em;
+    margin: 2.125em 0 0 2.3125em;
+}
+
+.travel__Testimonials-content_group img {
+    width: 13.49%; 
+    position: absolute;  
+    top: -12.186%;
+    left: -6.84%;
+}
+.travel__Testimonials-content_group p {
+    font-family: var(--font-popp);
+    color: #5E6282;
+    font-weight: 500;
+}
+
+.travel__Testimonials-content_group p:nth-child(1) {
+    line-height: 2em;  
+    margin:0 2.125em 2.125em  0;
+}
+
+.travel__Testimonials-content_group p:nth-child(2) {
+    font-weight: 600;
+    font-size: max(13.14px,1.25vw);
+    margin-bottom: 0.277em;
+}
+
+.travel__Testimonials-content_group p:nth-child(3) {
+    font-size: max(10.22px,0.97vw);
+}
+
+@media screen and (max-width: 973.6px) {
+    .travel__Testimonials-content_group {
+        font-size: 2.2vw;
+    }
+
+    .travel__Testimonials-content_group p:nth-child(2) {
+        font-size: 2.475vw;
+    }
+
+    .travel__Testimonials-content_group p:nth-child(3) {
+        font-size: 1.925vw;
+    }
+}
+

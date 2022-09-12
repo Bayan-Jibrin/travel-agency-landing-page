@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+body {
+    background: var(--color-bg);
+}
+
+a {
+    color: unset;
+    text-decoration: none;
+}
+
+.decore__bg {
+    background: url(assets/Decore.png);
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-size: 53.216%;
+    position: relative;
+}
+
+.decore__bg::before {
+    content: ' ';
+    background: #D5AEE4;
+    opacity: 0.3;
+    filter: blur(10.4166vw);
+    border-radius: 50%;
+    width: 33.26vw;
+    height: 34.504vw;
+    position: absolute;
+    top: -4.1555vw;
+    left: -29.1666vw;
+}
+
+
+  

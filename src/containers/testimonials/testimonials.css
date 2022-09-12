@@ -1,0 +1,132 @@
+.travel__Testimonials {
+    margin: 0 6.18vw 6.667vw 12.917vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.travel__Testimonials-heading {
+   width: max(35.1%,298.57px);
+   height: max(24.722vw,259.875px);
+}
+
+.travel__Testimonials-heading p {
+    font-family: var(--font-popp);
+    font-weight: 600;
+    font-size: max(13.14px,1.25vw);
+    text-transform: uppercase;
+    color: #5E6282;
+    margin: 0.5em 0;
+}
+
+.travel__Testimonials-heading h1 {
+    font-family: var(--font-vol);
+    font-weight: 700;
+    font-size: max(36.5px,3.47vw);
+    line-height: max(46.72px,4.44vw);
+    text-transform: capitalize;
+    color: #14183E;
+    margin-bottom: 1.64em;
+}
+
+.travel__Testimonials-heading_animation {
+    display: flex;
+    justify-content: space-between;
+    width: 21.27%;
+    height: 3.37%;
+}
+
+.travel__Testimonials-heading_animation span {
+    width: 13.79% ;
+    height: 100%;
+    border-radius: 50%;
+    background: #E5E5E5;
+    animation: loading 2s ease-in-out  infinite ;
+}
+
+.travel__Testimonials-heading_animation span:nth-child(2) {
+    animation-delay: 0.4s;
+}
+
+.travel__Testimonials-heading_animation span:nth-child(3) {
+    animation-delay: 0.8s;
+}
+
+@keyframes loading {
+    50% {
+        background-color:#39425D;
+    }
+}
+
+.travel__Testimonials-content {
+   width:max(57.42% ,488.377px);
+   height: max(24.722vw,259.875px);
+   position: relative;
+}
+
+.travel__Testimonials-content_group:nth-child(3) {
+    bottom: 0;
+    left: 7.47%;
+    z-index: -1;
+    padding: 1.75em 2.125em 1em;
+    height: 65.168%;
+}
+
+.travel__Testimonials-content_group:nth-child(3) p:nth-child(1) {
+    margin:0 2.125em 2.3em  0;
+}
+
+.travel__Testimonials-content_sign {
+    width: 2.09%;
+    height:20.08% ;
+    position: absolute;
+    right: 0;
+    top: 39.466%;
+}
+
+.travel__Testimonials-content_sign span {
+    width: 71.43%;
+    height: 13.987%;
+    position: absolute; 
+    transform: rotate(45deg);
+}
+
+.travel__Testimonials-content_sign span:nth-child(1) {   
+    top: 3.497%;
+    left: 17.857%;  
+    border-top: 2px solid #3E2E4D;
+    border-left: 2px solid #3E2E4D; 
+}
+
+.travel__Testimonials-content_sign span:nth-child(2) {
+    bottom: 3.497%;
+    right: 14%;/*17.857%*/
+    border-bottom: 2px solid #3E2E4D;
+    border-right: 2px solid #3E2E4D;
+}
+
+@media screen and (max-width: 973.6px) {
+    .travel__Testimonials {
+        margin-left:4vw ;
+        margin-right: 4vw;
+    }
+
+    .travel__Testimonials-content {
+        width: 92vw;
+        height: 48.956vw;
+    }
+
+    .travel__Testimonials-heading {
+        height: 48.956vw;
+        width: 56.245vw;
+    }
+
+    .travel__Testimonials-heading p  {
+        font-size: 2.475vw;
+    }
+
+    .travel__Testimonials-heading h1 {
+        font-size:6.875vw ;
+        line-height:8.8vw ;
+    }
+}

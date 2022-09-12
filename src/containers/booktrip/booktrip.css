@@ -1,0 +1,278 @@
+.travel__booktrip {
+    display: flex;
+    margin:0 9.722vw 13.89vw 12.917vw;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.travel__booktrip-steps {
+    width: max(45.87%,385.225px);
+}
+
+.travel__booktrip-image {
+    width: max(43.54%,365.663px);
+    position: relative;
+}
+
+.travel__booktrip-steps_heading p {
+    font-family: var(--font-popp);
+    font-weight: 600;
+    font-size: max(12px,1.25vw);
+    line-height: max(15px,1.875vw);
+    color: #5E6282;
+    margin-bottom: 0.833em;
+}
+
+.travel__booktrip-steps_heading h1 {
+    font-family: var(--font-vol);
+    font-weight: 700;
+    font-size: max(3.472vw,25px);
+    line-height: max(4.444vw,36px);
+    text-transform: capitalize;
+    color: #14183E;
+    margin-bottom: 0.62em;
+}
+
+.travel__booktrip-steps_Values {
+    width: 77.3%;
+}
+
+.travel__booktrip-steps_Values-container:not(:last-child) {
+    margin-bottom: 3em;
+}
+
+.travel__booktrip-image_groubA-groubB {
+    width: 71.08%;
+    z-index: 2;
+    background: #FFFFFF;
+    position: absolute;
+    bottom: 13%;
+    left: 60%;
+    font-size: max(10px,0.9722vw);
+    display: flex;
+    padding: 1.143em 1.7857em 1.57em 1.4283em;
+    box-shadow: 0px 100px 80px rgba(0, 0, 0, 0.02), 0px 64.8148px 46.8519px rgba(0, 0, 0, 0.0151852), 0px 38.5185px 25.4815px rgba(0, 0, 0, 0.0121481), 0px 20px 13px rgba(0, 0, 0, 0.01), 0px 8.14815px 6.51852px rgba(0, 0, 0, 0.00785185), 0px 1.85185px 3.14815px rgba(0, 0, 0, 0.00481481);
+    border-radius: 1.286em;
+}
+
+.travel__booktrip-image_groubA-groubB-image {
+    margin-right: 0.857em;
+    margin-top: 0.143em;   
+}
+
+.travel__booktrip-image_groubA-groubB-image img {
+    border-radius: 50%;
+    width:3.5714em ;
+    height:3.5714em  ;
+}
+
+.travel__booktrip-image_groubA-groubB-text {
+    width: 75.728%;
+}
+
+.travel__booktrip-image_groubA-groubB-text p:nth-child(1) {
+    font-family: var(--font-popp);
+    font-weight: 500;
+    letter-spacing: -0.035em;
+    color: #84829A;
+}
+
+.travel__booktrip-image_groubA-groubB-text h2 {
+    font-family: var(--font-popp);
+    font-weight: 500;
+    font-size: max(12px,1.25vw);
+    letter-spacing: -0.015em;
+    color: #080809;
+    margin:0.333em 0 0.77778em;
+}
+
+.travel__booktrip-image_groubA-groubB-text>p:nth-of-type(2){
+    font-family: var(--font-popp);
+    font-weight: 500;
+    letter-spacing: -0.055em;
+    color: #080809;
+    margin-bottom: 0.714em;
+} 
+
+.travel__booktrip-image_groubA-groubB-text>p>span {
+    color: #8A79DF;
+}
+ 
+.travel__booktrip-image_groubA-groubB-text>div {
+    width: 100%;
+    height: 0.357em;
+    background: #F5F5F5;
+    border-radius: 2.143em;
+}
+
+.travel__booktrip-image_groubA-groubB-text>div>div {
+    width: 46.7948%;
+    height: 0.357em;
+    background: #8A79DF;
+    border-radius: 2.143em;
+}
+
+.travel__booktrip-image_ellipse {
+    width: 72.989%;
+    height: 79.96%;
+    z-index: -1;
+    opacity: 0.4;
+    position: absolute;
+    top: 0;
+    left: 12.37%;
+}
+
+.travel__booktrip-image_ellipse div {
+    width: 100%;
+    height: 100%;
+    border-radius: 50% ;
+    background: #59B1E6;
+    opacity: 0.8;
+    filter: blur(9.375em);
+}
+
+.travel__booktrip-image_groubA {
+    margin-top: 3.69em;
+    width: 76.28%;
+    box-shadow: 0px 100px 80px rgba(0, 0, 0, 0.02), 0px 64.8148px 46.8519px rgba(0, 0, 0, 0.0151852), 0px 38.5185px 25.4815px rgba(0, 0, 0, 0.0121481), 0px 20px 13px rgba(0, 0, 0, 0.01), 0px 8.14815px 6.51852px rgba(0, 0, 0, 0.00785185), 0px 1.85185px 3.14815px rgba(0, 0, 0, 0.00481481);
+    border-radius: 1.63em;
+    background: #FFFFFF;
+    padding: 1.56em;
+    position: relative;
+    max-width: 400px;
+    font-size: max(12px,1.1111vw);
+}
+
+.travel__booktrip-image_groubA>img:first-of-type{
+    width: 100%;
+    margin-bottom: 1.3em;
+}
+
+.travel__booktrip-image_groubA>h2 {
+    font-family: var(--font-popp);
+    font-weight: 500;
+    font-size: max(12px,1.25vw);
+    letter-spacing: 0.015em;
+    color: #080809;
+    margin-bottom: 0.813em;
+}
+
+.travel__booktrip-image_groubA p {
+    font-family: var(--font-popp);
+    font-weight: 500;
+    letter-spacing: -0.005em;
+    color: #84829A;
+}
+
+.travel__booktrip-image_groubA-text span {
+    width: 1em;
+    height: 0px;
+    background: #84829A;
+    border: 0.063em solid #84829A;
+    transform: rotate(90deg);
+    margin:0 0.813em 0 0.188em;
+}
+
+.travel__booktrip-image_groubA-line>p {
+    letter-spacing: -0.02em;
+    margin-top: 0.063em ;
+}
+
+.travel__booktrip-image_groubA-line {
+    margin-bottom: 0.375em;
+}
+
+.travel__booktrip-image_groubA-options {
+    display: flex;
+    margin-left: 0.188em;
+    margin:1.313em auto 1.813em ;
+}
+
+.travel__booktrip-image_groubA-options div {
+    border-radius: 50% ;
+    background: #F5F5F5;
+    width: 2.25em;
+    height: 2.25em;
+    position: relative;
+    margin-right: 1.125em;
+}
+
+.travel__booktrip-image_groubA-options div img {
+    position: absolute;
+    width: 38.8889%;
+    height:38.8889%;
+    top:33.33%;
+    left: 30.556%;
+}
+
+.travel__booktrip-image_groubA-options div:nth-child(2) img {
+    position: absolute;
+    top:30.556%;
+    left: 27.77%;
+}
+
+.travel__booktrip-image_groubA-line {
+    display: flex;
+}
+
+.travel__booktrip-image_groubA-line img {
+    margin-right: 0.94em;
+    width: 1em;
+}
+
+.travel__booktrip-image_groubA>img:nth-of-type(2) {
+    position: absolute;
+    left:87.837%;
+    bottom: 7.927%;
+    width: 1.25em;
+    height: 1.16125em;
+
+}
+
+
+@media screen and (max-width: 970px) {
+    .travel__booktrip {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .travel__booktrip-steps {
+        width: auto;
+    }
+    
+    .travel__booktrip-image {
+        width: auto;
+    }
+}
+
+@media screen and (max-width: 506px) {
+    .travel__booktrip {
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+
+    .travel__booktrip-steps_Values {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .travel__booktrip-image_groubA,
+    .travel__booktrip-image_groubA-groubB {
+        font-size: 8px;
+    }
+
+    .travel__booktrip-image_groubA>h2,
+    .travel__booktrip-image_groubA-groubB-text h2 {
+        font-size: 10px;
+    }
+
+}
+
+
+
+
+
+
+

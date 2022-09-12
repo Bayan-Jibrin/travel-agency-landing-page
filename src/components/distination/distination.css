@@ -1,0 +1,50 @@
+.travel__distinations-container_distination {
+    width: max(164px,21.875vw);
+    height:max(237.9px,31.7361vw) ;
+    border-radius: max(1.6667vw,12.495px);
+    position: relative;   
+}
+
+.travel__distinations-container_distination-contain {
+    font-size: max(9px,1.25vw);
+    position: absolute;
+    width: 100%;
+    height: 28.446%;
+    bottom: 0;
+    background-color:#fff;
+    padding: 1.5em 1.4444em 2.1em 1.1111em;
+    border-radius: 0px 0px max(1.6667vw,12.495px) max(1.6667vw,12.495px);
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between ;
+}
+
+.travel__distinations-container_distination-contain p {
+    font-family: var(--font-popp);
+    font-weight: 500;
+    font-size: max(11px,1.25vw);
+    color: #5E6282;
+    text-align: left;
+}
+
+.travel__distinations-container_distination-contain-nav p {
+    font-size: max(10px,1.1111vw); 
+    margin-left: 0.9375em;
+}
+ 
+.travel__distinations-container_distination-contain-nav {
+    display: flex;
+    margin-top: auto ;
+    align-items: center;
+}
+
+.travel__distinations-container_distination-contain-nav img {
+    width:max(1.38889vw,10.413px) ;
+    height:max(1.38889vw,10.413px) ;
+}
+
+.travel__distinations-container_distination-contain-text {
+    display: flex;
+    justify-content: space-between;
+}
+
